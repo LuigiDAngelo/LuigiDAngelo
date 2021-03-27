@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     
-    background-image: url("a5d79c8.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-image: url("a5d79c8.jpg");*/
+
+    background-color: black;
+    margin-bottom: 100%;
+}
+
+h1#title{
+    margin-top: 14%;
+    margin-left: 23%;
+    display: none;
 }
 
 h1{
-    color: white;
+    color: rgb(249,249,249);
     font-family: 'Courgette', cursive;
     font-size: 250%;
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    display: none;
 }
 
 #purple{
@@ -23,18 +30,51 @@ h1{
 
 .vl {
     border-left: 1px solid rgb(89,24,223);
-    height: 500px;
+    height: 300%;
     position: absolute;
-    top: 18%;
-    left: 23%;
+    top: 19%;
+    left: 22%;
 }
 
 #logo{
     width: 10%;
-    position: absolute;
-    top: 43%;
-    left: 23%;
+    left: 90%; 
+    top: 5%; 
+    position: absolute;   
+    display: block;
     /*top: 23%;
     left: 64%;*/
     display: none;
+}
+
+#start{
+    color: rgb(107,101,114);
+    position: absolute;
+    display: none;
+    top: 20%;
+    left: 23.6%;
+}
+
+#datianagrafici{
+    color: rgb(107,101,114);
+    position: absolute;
+    display: none;
+    top: 110%;
+    left: 23.6%;
+}
+
+#mouse{
+    position: absolute;
+    top: 50%;
+    left: 21.055%;
+}
+
+h2{
+    color: rgb(107,101,114);
+}
+
+h2#primo{
+    position: absolute;
+    top: 115%;
+    left: 23.6%;
 }
