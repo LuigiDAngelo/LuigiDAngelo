@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    
+    background-image: url("a5d79c8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 250%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    display: none;
+}
+
+#purple{
+    color: rgb(89,24,223);
+}
+
+.vl {
+    border-left: 1px solid rgb(89,24,223);
+    height: 500px;
+    position: absolute;
+    top: 18%;
+    left: 23%;
+}
+
+#logo{
+    width: 10%;
+    position: absolute;
+    top: 43%;
+    left: 23%;
+    /*top: 23%;
+    left: 64%;*/
+    display: none;
+}
