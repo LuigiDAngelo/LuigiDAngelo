@@ -42,8 +42,6 @@ h1{
     top: 5%; 
     position: absolute;   
     display: block;
-    /*top: 23%;
-    left: 64%;*/
     display: none;
 }
 
@@ -64,9 +62,8 @@ h1{
 }
 
 #mouse{
-    position: absolute;
-    top: 50%;
-    left: 21.055%;
+    margin-top: 10%;
+    margin-left: 20.845%;
 }
 
 h2{
