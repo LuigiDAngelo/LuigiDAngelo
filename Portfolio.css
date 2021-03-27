@@ -13,8 +13,9 @@ body{
 }
 
 h1#title{
-    margin-top: 14%;
-    margin-left: 23%;
+    position: absolute;
+    top: 24%;
+    left: 23.6%;
     display: none;
 }
 
@@ -62,8 +63,9 @@ h1{
 }
 
 #mouse{
-    margin-top: 10%;
-    margin-left: 20.845%;
+    position: absolute;
+    top: 50%;
+    left: 21.055%;
 }
 
 h2{
