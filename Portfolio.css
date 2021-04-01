@@ -19,10 +19,18 @@ h1#title{
     display: none;
 }
 
+h1#primo{
+    color: rgb(107,101,114);
+}
+
 h1{
     color: rgb(249,249,249);
     font-family: 'Courgette', cursive;
     font-size: 250%;
+}
+
+p{
+    font-family: 'Courgette', cursive;
 }
 
 #purple{
@@ -56,25 +64,49 @@ h1{
 
 #datianagrafici{
     color: rgb(107,101,114);
-    position: absolute;
     display: none;
-    top: 110%;
-    left: 23.6%;
 }
 
 #mouse{
     position: absolute;
-    top: 50%;
-    left: 21.055%;
+    top: 89%;
+    left: 21.09%;
     width: 2.15%;
 }
 
-h2{
-    color: rgb(107,101,114);
+p#sections{
+    color: white;
+    font-size: 350%;
 }
 
-h2#primo{
+#dati{
     position: absolute;
-    top: 115%;
+    top: 130%;
     left: 23.6%;
+}
+
+#scuola{
+    position: absolute;
+    top: 230%;
+    left: 23.6%;
+}
+
+a:link{
+    color: dimgray;
+    text-decoration: none;
+}
+
+a:visited{
+    color: dimgray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgrey;
+    text-decoration: none;
+}
+
+a:active{
+    color: darkgrey;
+    text-decoration: none;
 }
