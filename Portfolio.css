@@ -7,8 +7,6 @@ html{
 body{
     
     background-image: url("a5d79c8.jpg");
-
-    /*background-color: black;*/
     margin-bottom: 100%;
     background-size: 100%;
 }
@@ -68,6 +66,11 @@ p{
     display: none;
 }
 
+#sezscuola{
+    color: rgb(107,101,114);
+    display: none;
+}
+
 #mouse{
     position: absolute;
     top: 89%;
@@ -80,7 +83,19 @@ p{
     left: 21.05%;
 }
 
-p#sections{
+#mouse2{
+    position: absolute;
+    top: 200%;
+    left: 21.09%;
+    width: 2.15%;
+}
+
+#mouse2:hover{
+    width: 2.2%;
+    left: 21.05%;
+}
+
+p.sections{
     color: white;
     font-size: 350%;
 }

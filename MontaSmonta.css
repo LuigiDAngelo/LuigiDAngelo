@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background-image: url("a5d79c8.jpg");
+    background-size: 100%;
+    overflow-y: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 12ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 42%;
+  }
+
+  .typing-demo2 {
+    width: 51ch;
+    animation: typing 2s steps(22), blink .12s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 4em;
+    color: rgb(107,101,114);
+    position: absolute;
+    top: 13%;
+    left: 12%;
+  }
+
+  .typing-demo3 {
+    width: 54ch;
+    animation: typing 2s steps(22), blink .13s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 4em;
+    color: rgb(107,101,114);
+    position: absolute;
+    top: 53%;
+    left: 12%;
+  }
+
+  .typing-demo4 {
+    width: 48ch;
+    animation: typing 2s steps(22), blink .11s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 4em;
+    color: rgb(107,101,114);
+    position: absolute;
+    top: 13%;
+    left: 12%;
+  }
+
+  .typing-demo5 {
+    width: 52ch;
+    animation: typing 2s steps(22), blink .12s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 4em;
+    color: rgb(107,101,114);
+    position: absolute;
+    top: 13%;
+    left: 12%;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+#text1{
+    position: absolute;
+    top: 40%;
+}
+
+#text2{
+    position: absolute;
+    top: 50%;
+}
+
+#text3{
+    position: absolute;
+    top: 60%;
+}
+
+#text4{
+    position: absolute;
+    top: 70%;
+}
