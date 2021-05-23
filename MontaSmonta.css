@@ -9,111 +9,148 @@ body{
     overflow-y: hidden;
 }
 
-.wrapper {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .typing-demo {
-    width: 12ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 4em;
-    color: white;
-    position: absolute;
-    top: 13%;
-    left: 42%;
-  }
-
-  .typing-demo2 {
-    width: 51ch;
-    animation: typing 2s steps(22), blink .12s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 4em;
-    color: rgb(107,101,114);
-    position: absolute;
-    top: 13%;
-    left: 12%;
-  }
-
-  .typing-demo3 {
-    width: 54ch;
-    animation: typing 2s steps(22), blink .13s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 4em;
-    color: rgb(107,101,114);
-    position: absolute;
-    top: 53%;
-    left: 12%;
-  }
-
-  .typing-demo4 {
-    width: 48ch;
-    animation: typing 2s steps(22), blink .11s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 4em;
-    color: rgb(107,101,114);
-    position: absolute;
-    top: 13%;
-    left: 12%;
-  }
-
-  .typing-demo5 {
-    width: 52ch;
-    animation: typing 2s steps(22), blink .12s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 4em;
-    color: rgb(107,101,114);
-    position: absolute;
-    top: 13%;
-    left: 12%;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
-
-#text1{
-    position: absolute;
-    top: 40%;
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.css-typing p:nth-child(1) {
+  width: 39em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 30%;
+  left: 10%;
 }
 
-#text2{
-    position: absolute;
-    top: 50%;
+.css-typing p:nth-child(2) {
+  width: 36em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  top: 40%;
+  left: 10%;
 }
 
-#text3{
-    position: absolute;
-    top: 60%;
+.css-typing p:nth-child(3) {
+  width: 42em;
+  opacity: 0;
+  -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  top: 50%;
+  left: 10%;
 }
 
-#text4{
-    position: absolute;
-    top: 70%;
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+h1{
+  color: dimgray;
+  font-size: 60px;
+  position: absolute;
+  left: 39%;
 }
