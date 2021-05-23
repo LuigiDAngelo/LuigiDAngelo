@@ -143,3 +143,13 @@ a:active{
       transform: translate(-22px,5px) skew(21deg); 
     }
   }
+
+img{
+  position: absolute;
+  top: 6%;
+  left: 3%;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
