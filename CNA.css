@@ -21,7 +21,7 @@ body{
   left: 30%;
 }
 .css-typing p:nth-child(1) {
-  width: 46em;
+  width: 48em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
